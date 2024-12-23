@@ -3,15 +3,16 @@ import { cardTypes } from "../types/types";
 
 const Card = ({ textCard, textCardTitle, icon, iconBgColor }: cardTypes) => {
     return (
-        <motion.div initial={{ opacity: 0, y: 30 }}
+        <motion.div initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
                 type: "spring",
                 stiffness: 50,
                 damping: 20,
-                duration: 1,
+                duration: 3,
             }}
-            viewport={{ once: true, amount: 0.2 }}
+            viewport={{ once: false, amount: 0.2 }}
+
             className="flex items-center border shadow-2xl mb-6 py-3 px-3">
             {/* Conteneur de l'icône avec couleur de fond dynamique */}
             <div

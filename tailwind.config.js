@@ -9,7 +9,11 @@ export default {
         fira: ["Fira Sans Condensed", "serif"],
       },
       screens: {
-        custom: "930px",
+        custom: "950px",
+        smalltablet: "600px",
+        mediumtablet: "768px",
+        largetablet: "1026px",
+        desktop: "1280px",
       },
     },
   },
