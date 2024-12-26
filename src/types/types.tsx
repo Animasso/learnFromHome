@@ -10,3 +10,9 @@ export interface TestimonialTypes {
     titleCard: string;
     avatar: string;
 }
+export interface PlansTypes {
+    price: string;
+    title: string;
+    description: string;
+    features: string[];
+}
