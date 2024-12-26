@@ -16,3 +16,7 @@ export interface PlansTypes {
     description: string;
     features: string[];
 }
+export interface FaqsTypes {
+    question: string;
+    answer: string;
+}

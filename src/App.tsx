@@ -1,5 +1,6 @@
 import "./App.css"
 import AboutUs from "./components/AboutUs"
+import Faq from "./components/Faq"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Pricing from "./components/Pricing"
@@ -14,6 +15,7 @@ const App = () => {
       <AboutUs />
       <Testimonials />
       <Pricing />
+      <Faq />
     </div>
   )
 }
