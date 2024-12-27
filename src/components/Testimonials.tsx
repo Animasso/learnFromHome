@@ -10,9 +10,12 @@ const Testimonials = () => {
         <div className=" mt-52 px-3 py-3">
             <h2 className=" text-center text-4xl font-dosis ">Testimonials</h2>
             <div className=" flex flex-wrap justify-between mt-28">
-                <div className="flex  ">
-                    <TestimonialCard textCard="I've found a mentor who is supportive and always here for me" author="Ani Nano" titleCard="Best mentor ever" avatar={avatar1} />
-                </div>
+                <TestimonialCard
+                    textCard="I've found a mentor who is supportive and always here for me"
+                    author="Ani Nano"
+                    titleCard="Best mentor ever"
+                    avatar={avatar1}
+                />
                 <TestimonialCard
                     textCard="This platform helped me find the right guidance to excel in my coding journey. Highly recommend it!"
                     author="Emily Cartridge"

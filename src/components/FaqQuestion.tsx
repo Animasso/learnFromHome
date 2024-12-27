@@ -1,24 +1,33 @@
 import { TbSquareChevronDown } from "react-icons/tb";
 import { FaqsTypes } from "../types/types";
 import { useState } from "react";
-// <TbSquareChevronDown />
 import { CgChevronUpR } from "react-icons/cg";
-// <CgChevronUpR />
+
 const FaqQuestion = ({ question, answer }: FaqsTypes) => {
     const [showAnswer, setShowAnswer] = useState(false);
     return (
         <div>
-            <div className="flex justify-between mb-7">
-                <p className=" text-3xl font-dosis font-semibold"> {question} </p>
-                {showAnswer ? <button onClick={() => setShowAnswer(!showAnswer)}><CgChevronUpR size={40} /></button>
-                    : <button onClick={() => setShowAnswer(!showAnswer)}><TbSquareChevronDown size={40} /></button>}
-                <hr />
+            <div className="flex items-center justify-between mb-7">
+                <p className="text-3xl font-dosis font-semibold flex-1">{question}</p>
+                <button
+                    onClick={() => setShowAnswer(!showAnswer)}
+                    className="ml-4 flex-shrink-0"
+                >
+                    {showAnswer ? (
+                        <CgChevronUpR size={40} color="white" />
+                    ) : (
+                        <TbSquareChevronDown size={40} color="white" />
+                    )}
+                </button>
             </div>
-            <div className=" ">
-                {showAnswer && <p className=" mb-4 text-2xl font-dosis"> {answer} </p>}
+            <hr className="my-2 bg-slate-400 h-0.5 border-0" />
+            <div>
+                {showAnswer && (
+                    <p className="mb-4 text-2xl font-dosis">{answer}</p>
+                )}
             </div>
-        </div>
 
+        </div>
 
     )
 }

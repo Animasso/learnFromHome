@@ -34,7 +34,7 @@ const Header = () => {
                 </a>
             </nav>
 
-            {/* Menu Burger pour petits écrans */}
+            {/*  Burger menu */}
             <div className="md:hidden">
                 <button
                     onClick={() => setMenuOpen(!menuOpen)}
@@ -58,7 +58,7 @@ const Header = () => {
                 </button>
             </div>
 
-            {/* Menu Mobile */}
+            {/*  Mobile menu */}
             {menuOpen && (
                 <nav className="absolute top-20 left-0 w-full bg-slate-400 flex flex-col items-center space-y-4 md:hidden">
                     <a href="#price" className="text-white hover:text-yellow-500">

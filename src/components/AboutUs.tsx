@@ -5,7 +5,7 @@ import mentor from "../assets/mentor.jpg"
 const AboutUs = () => {
     return (
         <div className=" mt-32 h-fit font-dosis font-light flex px-3 py-3">
-            {/* Section des images */}
+
             <section className=" py-5 grid grid-cols-1 largetablet:grid-cols-2  px-5  border rounded-xl shadow-2xl w-1/2 gap-4  bg-slate-200">
                 <img src={student1} alt="Student 1" className="object-cover w-full h-auto border rounded" />
                 <img src={student2} alt="Student 2" className="object-cover w-full h-auto border rounded" />

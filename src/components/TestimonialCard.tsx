@@ -10,9 +10,9 @@ const TestimonialCard = ({ titleCard, textCard, avatar, author }: any) => {
                 type: "spring",
                 stiffness: 50,
                 damping: 15,
-                delay: 0.2, // Ajuster pour un effet en cascade
+                delay: 0.2,
             }}
-            viewport={{ once: false }} // L'animation ne s'exécute qu'une fois
+            viewport={{ once: false }}
         >
             <h2 className="text-2xl">{titleCard}</h2>
             <p className="mt-2">{textCard}</p>

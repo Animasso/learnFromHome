@@ -14,7 +14,7 @@ const Card = ({ textCard, textCardTitle, icon, iconBgColor }: cardTypes) => {
             viewport={{ once: false, amount: 0.2 }}
 
             className="flex items-center border shadow-2xl mb-6 py-3 px-3">
-            {/* Conteneur de l'icône avec couleur de fond dynamique */}
+
             <div
                 className={`flex items-center justify-center w-20 h-20 rounded-full`}
                 style={{ backgroundColor: iconBgColor }}
