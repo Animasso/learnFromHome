@@ -20,18 +20,23 @@ const Header = () => {
 
             {/* Navigation Desktop */}
             <nav className="hidden md:flex space-x-6 font-playwrite">
-                <a href="#price" className=" text-blue-600 hover:text-yellow-500">
-                    Price
-                </a>
+
                 <a href="#about" className="text-blue-600 hover:text-yellow-500">
                     About
                 </a>
-                <a href="#contact" className="text-blue-600 hover:text-yellow-500">
-                    Contact Us
+                <a href="#testimonial" className="text-blue-600 hover:text-yellow-500">
+                    Testimonials
+                </a>
+                <a href="#price" className=" text-blue-600 hover:text-yellow-500">
+                    Price
                 </a>
                 <a href="#faq" className="text-blue-600 hover:text-yellow-500">
                     FAQ
                 </a>
+                <a href="#contact" className="text-blue-600 hover:text-yellow-500">
+                    Contact Us
+                </a>
+
             </nav>
 
             {/*  Burger menu */}

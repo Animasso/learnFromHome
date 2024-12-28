@@ -13,16 +13,17 @@ const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold">About Us</h3>
                     <p className="text-sm mt-2">
-                        YourPlatform connects learners and mentors worldwide, offering courses and personalized guidance.
+                        Learn From Home connects learners and mentors worldwide, offering courses and personalized guidance.
                     </p>
                 </div>
                 <div>
                     <h3 className="text-lg font-semibold">Quick Links</h3>
                     <ul className="mt-2 space-y-1 text-sm">
-                        <li><a href="/about" className="hover:underline">About</a></li>
-                        <li><a href="/contact" className="hover:underline">Contact</a></li>
-                        <li><a href="/faq" className="hover:underline">FAQ</a></li>
-                        <li><a href="/privacy" className="hover:underline">Privacy Policy</a></li>
+                        <li><a href="#about" className="hover:underline">About</a></li>
+                        <li><a href="#testimonial" className="hover:underline">Testimonial</a></li>
+                        <li><a href="#contact" className="hover:underline">Contact</a></li>
+                        <li><a href="#faq" className="hover:underline">FAQ</a></li>
+                        <li><a href="#price" className="hover:underline">Price</a></li>
                     </ul>
                 </div>
 

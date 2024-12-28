@@ -13,7 +13,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className=" mt-32 flex flex-col items-center p-6">
+        <div id="contact" className=" mt-32 flex flex-col items-center p-6">
             <h2 className="font-dosis text-2xl font-semibold mb-4">Contact Us</h2>
 
             {sendEmail ? (

@@ -6,7 +6,7 @@ const Pricing = () => {
     const [selectedPlan, setSelectedPlan] = useState("Starter");
 
     return (
-        <div className="flex flex-col items-center  mt-28 p-6 font-dosis">
+        <div id="price" className="flex flex-col items-center  mt-28 p-6 font-dosis">
             <h1 className="text-4xl font-bold mb-7">Choose a Pricing Plan:</h1>
 
             {/* Plan Selector Buttons */}

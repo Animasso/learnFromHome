@@ -26,7 +26,7 @@ const Hero = () => {
                 <h1 className="  font-dosis ">Learn from home is a platform for connecting students and mentors that will allow you to achieve your goals in the subject of your choice</h1>
                 <button className=" font-dosis font-light border px-3 py-3 rounded-md  bg-slate-400 hover:bg-slate-500 hover:text-yellow-50 mt-6">Join us</button>
             </div>
-            <div className="flex flex-wrap justify-center px-3 gap-5  mt-32">
+            <div id="about" className="flex flex-wrap justify-center px-3 gap-5  mt-32">
                 <Card
                     iconBgColor="blue"
                     textCard="All you need is a computer and a good connection and you are set ."

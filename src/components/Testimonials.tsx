@@ -7,7 +7,7 @@ import avatar5 from "../assets/avatar5.png"
 import avatar6 from "../assets/avatar6.png"
 const Testimonials = () => {
     return (
-        <div className=" mt-52 px-3 py-3">
+        <div id="testimonial" className=" mt-52 px-3 py-3">
             <h2 className=" text-center text-4xl font-dosis ">Testimonials</h2>
             <div className=" flex flex-wrap justify-between mt-28">
                 <TestimonialCard
