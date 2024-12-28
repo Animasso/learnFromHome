@@ -19,7 +19,7 @@ const Header = () => {
             </div>
 
             {/* Navigation Desktop */}
-            <nav className="hidden md:flex space-x-6 font-playwrite">
+            <nav className="hidden md:flex space-x-6 font-dosis text-xl">
 
                 <a href="#about" className="text-blue-600 hover:text-yellow-500">
                     About
@@ -65,17 +65,17 @@ const Header = () => {
 
             {/*  Mobile menu */}
             {menuOpen && (
-                <nav className="absolute top-20 left-0 w-full bg-slate-400 flex flex-col items-center space-y-4 md:hidden">
-                    <a href="#price" className="text-white hover:text-yellow-500">
+                <nav className="absolute top-20 left-0 w-full bg-gray-300 flex flex-col items-center space-y-4 md:hidden">
+                    <a href="#price" className=" text-blue-600 hover:text-yellow-500">
                         Price
                     </a>
-                    <a href="#about" className="text-white hover:text-yellow-500">
+                    <a href="#about" className="text-blue-600 hover:text-yellow-500">
                         About
                     </a>
-                    <a href="#contact" className="text-white hover:text-yellow-500">
+                    <a href="#contact" className="text-blue-600 hover:text-yellow-500">
                         Contact Us
                     </a>
-                    <a href="#faq" className="text-white hover:text-yellow-500">
+                    <a href="#faq" className="text-blue-600 hover:text-yellow-500">
                         FAQ
                     </a>
                 </nav>
