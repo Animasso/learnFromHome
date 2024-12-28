@@ -19,7 +19,7 @@ const Header = () => {
             </div>
 
             {/* Navigation Desktop */}
-            <nav className="hidden md:flex space-x-6 font-dosis text-xl">
+            <nav className="hidden md:flex space-x-6 font-dosis font-bold text-2xl">
 
                 <a href="#about" className="text-blue-600 hover:text-yellow-500">
                     About

@@ -10,6 +10,7 @@ const FaqQuestion = ({ question, answer }: FaqsTypes) => {
             <div className="flex items-center justify-between mb-7">
                 <p className="text-3xl font-dosis font-semibold flex-1">{question}</p>
                 <button
+                    aria-label={showAnswer ? "Collapse answer" : "Expand answer"}
                     onClick={() => setShowAnswer(!showAnswer)}
                     className="ml-4 flex-shrink-0"
                 >
