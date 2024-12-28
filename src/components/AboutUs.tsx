@@ -1,5 +1,5 @@
 import student1 from "../assets/teenStudent.jpg"
-import teacher from "../assets/teacher.jpg"
+import teacher from "../assets/Teacher.jpg"
 import student2 from "../assets/girlStudent.jpg"
 import mentor from "../assets/mentor.jpg"
 const AboutUs = () => {
